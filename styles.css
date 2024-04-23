@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.col1 {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.col2 {
+  width: 35%;
+  padding-left: 20px;
+}
+
+#contato {
+  background-color: #204889;
+}
+
+.cta {
+  position: relative;
+  margin-top: 0rem;
+  padding: 0.5rem 2rem;
+  background-color: #204889;
+  color: #fff;
+  border-radius: 0.2rem;
+
+  transition: background-color 0.3s ease;
+  border: 1px solid #fff;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cta:hover {
+  background-color: #3063b6;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#home {
+  padding: 20px 0;
+  background-color: #204889;
+  color: black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+ul a:hover {
+  color: rgb(238, 203, 5);
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #080808;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.servico {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.servico h3 {
+  margin-top: 0;
+}
+
+.servico img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.servico:hover img {
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #204889;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 1px;
+}
